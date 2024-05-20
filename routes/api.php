@@ -8,3 +8,9 @@ Route::middleware('auth:sanctum')->group(function () {
 
 Route::post('login', [AuthController::class, 'login']);
 Route::post('logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');
+
+
+//use
+php artisan make:controller BookController --api
+//use
+php artisan make:controller StoreController --api
