@@ -1,0 +1,10 @@
+public function up()
+{
+    Schema::create('books', function (Blueprint $table) {
+        $table->id();
+        $table->string('name');
+        $table->string('isbn')->unique();
+        $table->decimal('value', 8, 2);
+        $table->timestamps();
+    });
+}
