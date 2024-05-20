@@ -1,24 +1,24 @@
-Project Structure
+**Project Structure**
 
-app/Http/Controllers/BookController.php
-app/Http/Controllers/StoreController.php
-Summary of Controller Methods
+-	app/Http/Controllers/BookController.php
+-	pp/Http/Controllers/StoreController.php
 
-BookController
+**Summary of Controller Methods**
+**BookController**
 
-index(): Returns all books with their respective stores.
-store(Request $request): Creates a new book after validation.
-show(Book $book): Displays details of a specific book and its stores.
-update(Request $request, Book $book): Updates an existing book after validation.
-destroy(Book $book): Deletes a specific book.
-StoreController
+-	index(): Returns all books with their respective stores.
+-	store(Request $request): Creates a new book after validation.
+-	show(Book $book): Displays details of a specific book and its stores.
+-	update(Request $request, Book $book): Updates an existing book after validation.
+-	destroy(Book $book): Deletes a specific book.
 
-index(): Returns all stores with their respective books.
-store(Request $request): Creates a new store after validation.
-show(Store $store): Displays details of a specific store and its books.
-update(Request $request, Store $store): Updates an existing store after validation.
-destroy(Store $store): Deletes a specific store.
+**StoreController**
 
+-	index(): Returns all stores with their respective books.
+-	store(Request $request): Creates a new store after validation.
+-	show(Store $store): Displays details of a specific store and its books.
+-	update(Request $request, Store $store): Updates an existing store after validation.
+-	destroy(Store $store): Deletes a specific store.
 
 --------------
 Assessment Test - Backend
